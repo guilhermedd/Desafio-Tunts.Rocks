@@ -44,7 +44,6 @@ def main():
         df.at[index, 'Nota para Aprovação Final'] = math.ceil(naf)
 
         print(f"\t\tMédia: {average:.2f}\n{row}\n")
-        print(df)
 
 
 if __name__ == "__main__":
